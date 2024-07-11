@@ -195,6 +195,7 @@ namespace CollectionsMasterConsoleUI
             for (int i = 0; i < numbers.Length; i++)
             {
                 Random rng = new Random();
+                numbers[i] = rng.Next(0, 50);
 
             }
 
