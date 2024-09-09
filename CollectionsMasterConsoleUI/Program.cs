@@ -153,7 +153,7 @@ namespace CollectionsMasterConsoleUI
             {
                 if (numberList[i] % 2 != 0)
                 {
-                    numberList.RemoveAt(numberList[i]);
+                    numberList.Remove(numberList[i]);
                 }
             }
 
